@@ -22,7 +22,13 @@ body {
   background: var(--paper);
   line-height: 1.65;
   font-size: 17px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
+
+main { flex: 1 0 auto; }
+footer { flex-shrink: 0; }
 
 .wrap { max-width: 860px; margin: 0 auto; padding: 0 24px; }
 
